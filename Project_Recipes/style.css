@@ -1,0 +1,13 @@
+
+    body {
+        background-color: brown;
+        color:white;
+    }
+    .center {
+        text-align: center;
+        /*Try to Align the Anchor Linksc*/
+    }
+    a {
+        text-decoration-color: pink;
+        color:rgb(255, 255, 255);
+    }

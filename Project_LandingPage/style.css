@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: navy;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: auto;
+    width: 250px;
+    padding: 16px;
+}
+
+.links {
+    display:flex; 
+    gap: 16px;
+    align-items: center;
+}
+
+.links li{
+    list-style-type: none;
+        
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    flex-wrap:wrap;
+}
+
+.container1 {
+    padding: 16px;
+}
+
+.container1 button {
+    background-color: aquamarine;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.container1 p {
+    font-size: 1.25em;
+}
+
+.video {
+    padding: 16px;
+    height: auto;
+    max-width: 500px;
+    display: flex;
+}
+
+.section2 h1 {
+    text-align: center;
+}
+
+.section2 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.section2 {
+    background-color: lightskyblue;
+    padding: 16px;
+}
+
+.section2 li {
+    text-align: center;
+}
+
+.imageblocks img {
+    height: 200px;
+    width: 300px;
+    border: 4px solid blue;
+    border-radius: 8px;
+
+}
+
+.imageblocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.25em;
+    
+
+}
+
+.section3 {
+    display: flex;
+    background-color: aquamarine;
+    font-size: 1.75em;
+    padding: 32px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.section4 {
+    background-color: #c5e6ea;
+    padding: 16px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctacontainer {
+    background-color: #60caff;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1250px;
+    height: 200px;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: center;
+    line-height: 8px;
+
+}
+
+.EmailButton {
+     margin-bottom: 16px;
+}
+
+.EmailButton button {
+    background-color: #60caff;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    align-items: center;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    font-size: 1.25em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
